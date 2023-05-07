@@ -29,9 +29,9 @@ public class Main {
                         System.out.println("=====================");
                         System.out.println("Total Is : "+total);
                         System.out.println("Your Discount Is : "+dis+("%"));
-                        System.out.println("DisPrice Is : "+disPrice);
-                        System.out.println("Payment Is : "+payment);
-                        System.out.println("Your Ticket Is : "+ticket);
+                        System.out.println("DisPrice Is : "+disPrice+("$"));
+                        System.out.println("Payment Is : "+payment+("$"));
+                        System.out.println("Your Ticket Is : "+ticket+("t"));
         }else
             System.out.println("Invalited Input");
     }
